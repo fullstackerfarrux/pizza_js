@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.portion {
+  flex: 1;
+  padding: 50px;
+}
+.yupqa {
+  margin-left: 10px;
+}
+.qalin {
+  margin-left: 10px;
+}
+.sir {
+  margin-left: 10px;
+}
+.qoshimcha-sir {
+  margin-left: 10px;
+}
+.non-chekkasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(180, 106, 46);
+}
+.non {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid rgb(98, 11, 0);
+}
+.pomidor1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 40px;
+  top: 70px;
+}
+.pomidor2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 150px;
+  top: 40px;
+}
+.pomidor3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 180px;
+  top: 120px;
+}
+.pomidor4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 130px;
+  top: 180px;
+}
+.pomidor5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+.bodring1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: absolute;
+  left: 90px;
+  top: 40px;
+}
+.bodring2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: absolute;
+  left: 170px;
+  top: 80px;
+}
+.bodring3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: absolute;
+  left: 160px;
+  top: 150px;
+}
+.bodring4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: absolute;
+  left: 90px;
+  top: 160px;
+}
+.bodring5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  position: absolute;
+  left: 40px;
+  top: 110px;
+}
+.zaytun1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+}
+.zaytun2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 130px;
+  top: 30px;
+}
+.zaytun3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 150px;
+  top: 100px;
+}
+.zaytun4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 120px;
+  top: 130px;
+}
+.zaytun5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.zaytun6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 230px;
+  top: 100px;
+}
+.zaytun7 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.zaytun8 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 100px;
+  top: 220px;
+}
+.zaytun9 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
+.zaytun10 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(230, 180, 65);
+  border: 5px solid black;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+.ketchup1 {
+  width: 250px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(158, 5, 5);
+  transform: rotateZ(50deg);
+  position: absolute;
+  top: 148px;
+  left: -20px;
+}
+.ketchup2 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(158, 5, 5);
+  transform: rotateZ(50deg);
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+.ketchup3 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(158, 5, 5);
+  transform: rotateZ(140deg);
+  position: absolute;
+  top: 100px;
+  left: -10px;
+}
+.ketchup4 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(158, 5, 5);
+  transform: rotateZ(140deg);
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+.mayanez1 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotateZ(100deg);
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
+.mayanez2 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotateZ(100deg);
+  position: absolute;
+  top: 120px;
+  left: -20px;
+}
+.mayanez3 {
+  width: 240px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotateZ(10deg);
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+.mayanez4 {
+  width: 250px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotateZ(10deg);
+  position: absolute;
+  top: 150px;
+}
+.qoziqorin1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.qoziqorin2 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+.qoziqorin3 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.qoziqorin4 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.qoziqorin5 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.kalbasa1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 25, 21);
+  position: absolute;
+  top: 110px;
+  left: 10px;
+}
+.kalbasa2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 25, 21);
+  position: absolute;
+  top: 180px;
+  left: 60px;
+}
+.kalbasa3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 25, 21);
+  position: absolute;
+  top: 130px;
+  left: 190px;
+}
+.kalbasa4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 25, 21);
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+.kalbasa5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 25, 21);
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.kalbasa {
+  opacity: 0;
+}
+.qoziqorin {
+  opacity: 0;
+}
+.ketchup {
+  opacity: 0;
+}
+.mayanez {
+  opacity: 0;
+}
+.bodring {
+  opacity: 0;
+}
+.pomidor {
+  opacity: 0;
+}
+.zaytun {
+  opacity: 0;
+}
+.non {
+  opacity: 0;
+}
+.non-chekkasi {
+  opacity: 0;
+}
+
+.pizzasir {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(240, 186, 38);
+  background-color: rgb(240, 186, 38);
+  margin: 30px 30px;
+  display: none;
+}
+.pizzasirqoshimcha {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(240, 186, 38);
+  background-color: rgb(240, 186, 38);
+  display: none;
+}
