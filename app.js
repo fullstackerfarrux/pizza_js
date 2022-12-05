@@ -20,6 +20,9 @@ let pizzasir = document.querySelector(".pizzasir");
 let pizzasirqoshimcha = document.querySelector(".pizzasirqoshimcha");
 let sir = document.querySelector(".sir");
 let sirqoshimcha = document.querySelector(".qoshimcha-sir");
+let summa = document.querySelector(".summa");
+
+var s = 0;
 yupqa.addEventListener("click", () => {
   pizzanoni.style.opacity = "1";
   pizzaortasi.style.opacity = "1";
@@ -29,9 +32,9 @@ qalin.addEventListener("click", () => {
   pizzanoni.style.opacity = "1";
   pizzaortasi.style.opacity = "1";
   pizzanoni.style.transform = "scale(1.2)";
-  s = +1.5;
 });
 sir.addEventListener("click", () => {
+  summa.textContent = `${s}$`;
   pizzasir.style.display = "block";
   pizzasirqoshimcha.style.display = "none";
 });
@@ -46,18 +49,21 @@ pomidoradd.addEventListener("click", () => {
   let pomidor4 = document.querySelector(".pomidor4");
   let pomidor5 = document.querySelector(".pomidor5");
   if (pomidoradd.checked) {
+    s += 2;
     pomidor1.style.opacity = "1";
     pomidor2.style.opacity = "1";
     pomidor3.style.opacity = "1";
     pomidor4.style.opacity = "1";
     pomidor5.style.opacity = "1";
   } else {
+    s -= 2;
     pomidor1.style.opacity = "0";
     pomidor2.style.opacity = "0";
     pomidor3.style.opacity = "0";
     pomidor4.style.opacity = "0";
     pomidor5.style.opacity = "0";
   }
+  summa.textContent = `${s}$`;
 });
 bodringadd.addEventListener("click", () => {
   let bodring1 = document.querySelector(".bodring1");
@@ -66,18 +72,21 @@ bodringadd.addEventListener("click", () => {
   let bodring4 = document.querySelector(".bodring4");
   let bodring5 = document.querySelector(".bodring5");
   if (bodringadd.checked) {
+    s += 2;
     bodring1.style.opacity = "1";
     bodring2.style.opacity = "1";
     bodring3.style.opacity = "1";
     bodring4.style.opacity = "1";
     bodring5.style.opacity = "1";
   } else {
+    s -= 2;
     bodring1.style.opacity = "0";
     bodring2.style.opacity = "0";
     bodring3.style.opacity = "0";
     bodring4.style.opacity = "0";
     bodring5.style.opacity = "0";
   }
+  summa.textContent = `${s}$`;
 });
 zaytunadd.addEventListener("click", () => {
   let zaytun1 = document.querySelector(".zaytun1");
@@ -91,6 +100,7 @@ zaytunadd.addEventListener("click", () => {
   let zaytun9 = document.querySelector(".zaytun9");
   let zaytun10 = document.querySelector(".zaytun10");
   if (zaytunadd.checked) {
+    s += 1;
     zaytun1.style.opacity = "1";
     zaytun2.style.opacity = "1";
     zaytun3.style.opacity = "1";
@@ -102,6 +112,7 @@ zaytunadd.addEventListener("click", () => {
     zaytun9.style.opacity = "1";
     zaytun10.style.opacity = "1";
   } else {
+    s -= 1;
     zaytun1.style.opacity = "0";
     zaytun2.style.opacity = "0";
     zaytun3.style.opacity = "0";
@@ -113,6 +124,7 @@ zaytunadd.addEventListener("click", () => {
     zaytun9.style.opacity = "0";
     zaytun10.style.opacity = "0";
   }
+  summa.textContent = `${s}$`;
 });
 ketchupadd.addEventListener("click", () => {
   let ketchup1 = document.querySelector(".ketchup1");
@@ -120,6 +132,7 @@ ketchupadd.addEventListener("click", () => {
   let ketchup3 = document.querySelector(".ketchup3");
   let ketchup4 = document.querySelector(".ketchup4");
   if (ketchupadd.checked) {
+    s += 1;
     ketchup1.style.opacity = "1";
     ketchup2.style.opacity = "1";
     ketchup3.style.opacity = "1";
@@ -129,7 +142,9 @@ ketchupadd.addEventListener("click", () => {
     ketchup2.style.opacity = "0";
     ketchup3.style.opacity = "0";
     ketchup4.style.opacity = "0";
+    s -= 1;
   }
+  summa.textContent = `${s}$`;
 });
 mayanezadd.addEventListener("click", () => {
   let mayanez1 = document.querySelector(".mayanez1");
@@ -137,16 +152,19 @@ mayanezadd.addEventListener("click", () => {
   let mayanez3 = document.querySelector(".mayanez3");
   let mayanez4 = document.querySelector(".mayanez4");
   if (mayanezadd.checked) {
+    s += 1;
     mayanez1.style.opacity = "1";
     mayanez2.style.opacity = "1";
     mayanez3.style.opacity = "1";
     mayanez4.style.opacity = "1";
   } else {
+    s -= 1;
     mayanez1.style.opacity = "0";
     mayanez2.style.opacity = "0";
     mayanez3.style.opacity = "0";
     mayanez4.style.opacity = "0";
   }
+  summa.textContent = `${s}$`;
 });
 qoziqorinadd.addEventListener("click", () => {
   let qoziqorin1 = document.querySelector(".qoziqorin1");
@@ -155,19 +173,23 @@ qoziqorinadd.addEventListener("click", () => {
   let qoziqorin4 = document.querySelector(".qoziqorin4");
   let qoziqorin5 = document.querySelector(".qoziqorin5");
   if (qoziqorinadd.checked) {
+    s += 1;
     qoziqorin1.style.opacity = "1";
     qoziqorin2.style.opacity = "1";
     qoziqorin3.style.opacity = "1";
     qoziqorin4.style.opacity = "1";
     qoziqorin5.style.opacity = "1";
   } else {
+    s -= 1;
     qoziqorin1.style.opacity = "0";
     qoziqorin2.style.opacity = "0";
     qoziqorin3.style.opacity = "0";
     qoziqorin4.style.opacity = "0";
     qoziqorin5.style.opacity = "0";
   }
+  summa.textContent = `${s}$`;
 });
+
 kalbasaadd.addEventListener("click", () => {
   let kalbasa1 = document.querySelector(".kalbasa1");
   let kalbasa2 = document.querySelector(".kalbasa2");
@@ -175,20 +197,20 @@ kalbasaadd.addEventListener("click", () => {
   let kalbasa4 = document.querySelector(".kalbasa4");
   let kalbasa5 = document.querySelector(".kalbasa5");
   if (kalbasaadd.checked) {
+    s += 3;
     kalbasa1.style.opacity = "1";
     kalbasa2.style.opacity = "1";
     kalbasa3.style.opacity = "1";
     kalbasa4.style.opacity = "1";
     kalbasa5.style.opacity = "1";
   } else {
+    s -= 3;
     kalbasa1.style.opacity = "0";
     kalbasa2.style.opacity = "0";
     kalbasa3.style.opacity = "0";
     kalbasa4.style.opacity = "0";
     kalbasa5.style.opacity = "0";
   }
+
+  summa.textContent = `${s}$`;
 });
-// let body = document.querySelector("body");
-// let h1 = document.createElement("h1");
-// h1.textContent = `Siz xarid qilmoqchi bo'lga pizzaning narxi ${s}$`;
-// body.prepend(h1);
